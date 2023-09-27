@@ -1,21 +1,30 @@
 /********************NAVBAR***************************/
 
-
-.boutonnavig {
-    align-self: flex-end;
-    flex-wrap: nowrap;
+.barrenavig {
+    display: flex;
+    flex-direction: row;
 }
 
-.boutonnavig a {
-    transition: 300ms;
+.bloc-logo {
+    width: 70%;
 }
 
-.boutonnavig a:hover {
-    font-weight: 600;
+.bloc-menu {
+    width: 30%;
 }
 
-.menu-item-admin {
-    font-size: 30px;
+.bloc-menu a {
+    color: black;
+}
+
+.bloc-menu a:hover {
+    font-weight: 700;
+}
+
+
+.menu-item-ad {
+    font-size: 16px;
+    align-self: center;
 }
 
 
@@ -120,41 +129,50 @@
             /************************** Media queries *****************************************************/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+
     .cont-pdng {
         padding-left: 30px;
         padding-right: 30px;
     }
-    
-    .boutonnavig a:hover {
-        font-weight: 400;
-        font-size: 16px;
+
+    /********NAVBAR********/
+    .bloc-logo {
+        width: 50%;
     }
+
+    .bloc-menu {
+        width: 50%;
+    }
+
 
 }
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
 
-    .cont-pdng {
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-    
+    /********************NAVBAR***************/
 
-    .barredenavig {
+    .barrenavig {
         display: flex;
         flex-direction: column;
+    }
+
+    .bloc-logo {
+        width: 100%;
         align-items: center;
     }
 
-    .logonavbar {
-        align-self: center;
+    .bloc-menu {
+        width: 100%;
     }
 
 
-    .boutonnavig {
-        width: 100%;
-        align-self: center;
+
+    /*****************BODY****************/
+
+    .cont-pdng {
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
     .bloc-avis {

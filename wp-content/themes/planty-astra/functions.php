@@ -24,7 +24,7 @@ function add_menu_item ( $items, $args )
         }
 
         $items_array[] = $items;
-        array_splice($items_array, 1, 0, '<li class="menu-item-admin"><a href="' . admin_url() . '">Admin</a></li>'); // POSITION DE L'ITEM ici 1 donc
+        array_splice($items_array, 1, 0, '<li class="menu-item-ad"><a href="' . admin_url() . '">Admin</a></li>'); // POSITION DE L'ITEM ici 1 donc
 
         $items = implode('', $items_array);
        
