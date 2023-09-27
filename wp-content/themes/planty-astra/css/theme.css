@@ -19,10 +19,13 @@
 
 .bloc-menu a:hover {
     font-weight: 700;
+    letter-spacing: -1px;
+    font-stretch: condensed;
 }
 
 
 .menu-item-ad {
+    width: 100px;
     font-size: 16px;
     align-self: center;
 }

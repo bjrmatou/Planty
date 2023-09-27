@@ -17,7 +17,7 @@ function add_menu_item ( $items, $args )
 {        
     $items_array = array();
 
-        if ( is_user_logged_in ( $item_pos = strpos ( $items, '<li', 2 ) ) ) 
+        if ( is_user_logged_in ( $item_pos = strpos ( $items, '<li', 3 ) ) ) 
         {
             $items_array[] = substr($items, 0, $item_pos);
             $items = substr($items, $item_pos);
