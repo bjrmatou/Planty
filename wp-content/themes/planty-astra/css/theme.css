@@ -175,13 +175,20 @@
     }
 
 
-    .bloc-nbfrt {
-        width: 22%;
+    .bloc-eqp {
+        margin-top: 30px;
     }
 
-    .bloc-nbfrt h5 {
-        font-size: 15px;
-    }
+        /**********FORM*******************************/
+        .bloc-nbfrt {
+            width: 22%;
+        }
+
+        .bloc-nbfrt h5 {
+            font-size: 15px;
+        }
+
+
 
     .menufooter {
         text-align: center;
