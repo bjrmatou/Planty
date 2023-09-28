@@ -12,26 +12,19 @@ function theme_enqueue_styles()
 
 /**********HOOK LIEN ADMIN NAVBAR *************************/
 
-add_filter( 'wp_nav_menu_items', 'add_menu_item', 10, 2 );
-function add_menu_item ( $items, $args ) 
-{        
-    $items_array = array();
+add_filter ( 'wp_nav_menu_items', 'add_admin_link_to_menu', 10, 2);
+function add_admin_link_to_menu($items, $args) 
+{
+    if (is_user_logged_in() && $args->menu === 'navbar') 
+    {
+        $menu_items = explode('</li>', $items);
+        $new_item = '<li class="menu-item"><a href="' . admin_url() . '">Admin</a></li>';
+        array_splice($menu_items, floor(count($menu_items) / 2), 0, $new_item);
+        $items = implode('</li>', $menu_items);
+    }
 
-        if ( is_user_logged_in ( $item_pos = strpos ( $items, '<li', 3 ) ) ) 
-        {
-            $items_array[] = substr($items, 0, $item_pos);
-            $items = substr($items, $item_pos);
-        }
-
-        $items_array[] = $items;
-        array_splice($items_array, 1, 0, '<li class="menu-item-ad"><a href="' . admin_url() . '">Admin</a></li>'); // POSITION DE L'ITEM ici 1 donc
-
-        $items = implode('', $items_array);
-       
-       return $items;
+    return $items;
 }
-
-
 
 
 ?>

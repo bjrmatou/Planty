@@ -3,14 +3,15 @@
 .barrenavig {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .bloc-logo {
-    width: 70%;
+    width: auto;
 }
 
 .bloc-menu {
-    width: 30%;
+    width: auto;
 }
 
 .bloc-menu a {
@@ -19,14 +20,9 @@
 
 .bloc-menu a:hover {
     font-weight: 700;
-    letter-spacing: -1px;
-    font-stretch: condensed;
 }
 
-
-.menu-item-ad {
-    width: 100px;
-    font-size: 16px;
+.menu-item {
     align-self: center;
 }
 
@@ -138,16 +134,6 @@
         padding-right: 30px;
     }
 
-    /********NAVBAR********/
-    .bloc-logo {
-        width: 50%;
-    }
-
-    .bloc-menu {
-        width: 50%;
-    }
-
-
 }
 
 /* Small devices (phones, less than 768px) */
@@ -159,16 +145,16 @@
         display: flex;
         flex-direction: column;
     }
-
+    
     .bloc-logo {
         width: 100%;
         align-items: center;
     }
-
+    
     .bloc-menu {
         width: 100%;
+        align-items: center;
     }
-
 
 
     /*****************BODY****************/
