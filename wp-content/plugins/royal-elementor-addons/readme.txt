@@ -1,7 +1,7 @@
 === Royal Elementor Addons and Templates ===
 Contributors: WP Royal, rubeushagrid13, cyberpinky, elementoraddonswpr, ggedenidze1982, wprduke
 Tags: elementor, elementor templates, elementor addons, widgets for elementor, elementor widgets, elementor mega menu, elementor woocommerce builder, theme builder, header footer builder, elementor post grid, elementor product grid, addons for elementor
-Stable tag: 1.3.77
+Stable tag: 1.3.78
 Requires at least: 5.0
 Tested up to: 6.3.1
 Requires PHP: 5.6
@@ -204,6 +204,7 @@ and other custom branding related settings)
 - [**Digital Seo Marketing Agency v2**](https://demosites.royal-elementor-addons.com/digital-seo-marketing-agency-v2/?ref=rea-wpo-pp-details-tab)
 - [**Real Estate v2**](https://demosites.royal-elementor-addons.com/realestate-v2/?ref=rea-wpo-pp-details-tab)
 - [**Real Estate Agency v3**](https://demosites.royal-elementor-addons.com/realestate-v3/?ref=rea-wpo-pp-details-tab)
+- [**Job Listing Website**](https://demosites.royal-elementor-addons.com/job-listing-v1/?ref=rea-wpo-pp-details-tab)
 - [**Digital Marketing Agency v3**](https://demosites.royal-elementor-addons.com/digital-marketing-agency-v3/?ref=rea-wpo-pp-details-tab)
 - [**Digital Marketing Agency v2**](https://demosites.royal-elementor-addons.com/digital-marketing-agency-v2/?ref=rea-wpo-pp-details-tab)
 - [**Digital Agency Dark**](https://demosites.royal-elementor-addons.com/digital-agency-dark-v1/?ref=rea-wpo-pp-details-tab)
@@ -425,6 +426,11 @@ memory_limit 256M or more
 post_max_size 64M
 
 == Changelog ==
+= Royal Elementor Addons v1.3.78 - 2023-09-29 =
+* ADDED: Job Listing / Directory Elementor Templates Kit - [**Job Listing Kit**](https://demosites.royal-elementor-addons.com/job-listing-v1/?ref=rea-wpo-pp-details-tab).
+* ADDED: 50+ Header and Footer Premade Sections in [**Royal Elementor Library**](https://prnt.sc/aFX-zsDSrX8y).
+* FIXED: Minor Bugs.
+
 = Royal Elementor Addons v1.3.77 - 2023-09-06 =
 * ADDED: Real Estate Agency Elementor Templates Kit - [**Real Estate Agency Kit**](https://demosites.royal-elementor-addons.com/realestate-v3/?ref=rea-wpo-pp-details-tab).
 * ADDED: Nature - Travel (for beginners) Elementor Templates Kit - [**Nature - Travel**](https://demosites.royal-elementor-addons.com/nature-v2/ref=rea-wpo-pp-details-tab).
