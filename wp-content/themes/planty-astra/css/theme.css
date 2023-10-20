@@ -20,6 +20,7 @@
 
 .bloc-menu a:hover {
     font-weight: 700;
+    font-size: 13px;
 }
 
 .menu-item {
@@ -30,6 +31,16 @@
 
 
 /*******************FORMULAIRE COMMANDE************************/
+
+.formulairecorps {
+    width: 100%;
+    height: auto;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .bloc1 {
     display: flex;
     flex-direction: row;
@@ -58,7 +69,10 @@
     border-radius: 7px 0px 0px 7px;
     overflow: hidden;
     }
-    
+
+    .zonenbr .wpcf7-form-control {
+        height: 56px;
+}
     
 .zoneboutons {
     width: 40%;
@@ -92,7 +106,13 @@
     padding-top: 17px;
     padding-bottom: 17px;
     font-size: 16px;
+    transition: 300ms;
     }
+
+.blocok:hover {
+    background-color: #C02E44;
+    transition: 300ms;
+}
     
     
 .bloc2 {
@@ -108,6 +128,7 @@
 .bloc2 h3 {
     color: #ffffff;
     font-size: 30px;
+    margin-bottom: 30px;
     }
     
 .bloc-vosinfos {
@@ -121,6 +142,22 @@
     padding-left: 40px;
     }
 
+.comfield {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 71px;
+    background-color: #ffffff;
+    border-radius: 7px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.boutontCom {
+    position: relative;
+    margin-right: -70px;
+}
 
 
 
