@@ -27,5 +27,14 @@ function add_admin_link_to_menu($items, $args)
 }
 
 
+/************SCRIPT BOUTONS CONTACT FORM *****/
+function include_custom_js() {
+    wp_enqueue_script('buttonForm', get_stylesheet_directory_uri() . '/buttonForm.js', array('jquery'), null, true);
+}
+
+add_action('wp_enqueue_scripts', 'include_custom_js');
+
+
 ?>
+
 
